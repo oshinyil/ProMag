@@ -1,4 +1,5 @@
-﻿/npm-debug.log.1639362890
+﻿/npm-debug.log.*
 /.git
 /node_modules
 /typings
+/.vscode
