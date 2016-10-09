@@ -6,13 +6,11 @@ import { StarComponent } from '../shared/star.component';
 import { ProductService } from './product.service';
 
 @Component({
-    selector: 'pm-products',
     templateUrl: 'app/products/product-list.component.html',
     styleUrls: ['app/products/product-list.component.css'],
     pipes: [ProductFilterPipe],
     directives: [StarComponent]
 })
-
 export class ProductListComponent implements OnInit {
     pageTitle: string = 'Product List';
     imageWidth: number = 50;
